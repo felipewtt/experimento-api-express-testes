@@ -1,0 +1,31 @@
+{
+  "name": "experimento-api-express-testes",
+  "version": "1.0.0",
+  "description": "Experimento de testes de uma API Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipewtt/experimento-api-express-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/felipewtt/experimento-api-express-testes/issues"
+  },
+  "homepage": "https://github.com/felipewtt/experimento-api-express-testes#readme",
+  "dependencies": {
+    "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.0"
+  }
+}
